@@ -1,5 +1,8 @@
 ﻿@import url("../../desktop.blocks/m-menu/m-menu.css") screen;
+@import url("../../desktop.blocks/m-footer/m-footer.css") screen;
 
 body {
     margin: 0 auto;
+    position: relative;
+    min-height: 100%;
 }

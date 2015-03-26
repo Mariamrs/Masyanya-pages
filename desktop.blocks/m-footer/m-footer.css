@@ -1,0 +1,65 @@
+﻿@font-face {
+    font-family: 'Circe Light';
+    src: url("..CRC35.otf");
+}
+    @font-face {
+    font-family: 'a_AvanteRough Light';
+    src: url("..a_AvanteRough Light.ttf");
+}
+
+ul, ol {
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.m-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #60D6FB;
+    box-shadow: 0 -3px 5px rgba(0,0,0,0.25);
+    width: 100%;
+    height: 108px;
+}
+
+/*.m-footer div {
+    border: solid 1px red;
+} */
+
+.m-footer__wrapper {
+   width: 1020px;
+   margin: 0 auto;
+}
+
+.m-footer__copyright {
+    font-family: 'Circe Light', sans-serif;
+    font-size: 16px;
+    width: 339px;
+    float: left;
+
+}
+
+.m-footer__design-studio {
+    width: 339px;
+    float: right;
+    font-family: 'Circe Light', sans-serif;
+    font-size: 16px;
+
+    }
+
+.m-footer__social {
+    margin: 0 340px 0 340px;
+    font-family: 'a_AvanteRough Light', serif;
+    font-size: 18px;
+    text-align: center
+
+    }
+
+.m-footer__wrapper p {
+    display: inline-block;
+    border: solid 1px;
+    text-align: center;
+}
