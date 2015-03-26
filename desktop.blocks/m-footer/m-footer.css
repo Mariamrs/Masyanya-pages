@@ -37,29 +37,30 @@ ul, ol {
 .m-footer__copyright {
     font-family: 'Circe Light', sans-serif;
     font-size: 16px;
-    width: 339px;
+    width: 340px;
     float: left;
-
-}
+    }
 
 .m-footer__design-studio {
-    width: 339px;
+    width: 340px;
     float: right;
     font-family: 'Circe Light', sans-serif;
     font-size: 16px;
 
+
     }
 
 .m-footer__social {
-    margin: 0 340px 0 340px;
+    margin: 0 339px 0 339px;
     font-family: 'a_AvanteRough Light', serif;
     font-size: 18px;
-    text-align: center
+    text-align: center;
+
 
     }
 
 .m-footer__wrapper p {
-    display: inline-block;
     border: solid 1px;
     text-align: center;
+    
 }
