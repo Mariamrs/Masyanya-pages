@@ -40,6 +40,7 @@ ul, ol {
     width: 400px;
     float: left;
     margin-right: 60px;
+    margin-top: 38px;
  }
 
 
@@ -49,15 +50,23 @@ ul, ol {
     width: 352px;
     font-family: 'a_AvanteRough Light', serif;
     font-size: 18px;
+    margin-top: 28px;
 
  }
 
 .m-footer__social p {
     letter-spacing: 2px;
+    margin-bottom: 13px;
 }
 
 .m-footer__social-images {
-    text-align: left;
+    display: inline-block;
+}
+
+.m-footer__social-images_VK {
+    background-image: url(/Images/VK.png);
+    width: 25px;
+    height: 25px;
 }
 
 .m-footer__design-studio {
@@ -65,6 +74,7 @@ ul, ol {
     float: right;
     font-family: 'Circe Light', sans-serif;
     font-size: 14px;
+    margin-top: 38px;
 
     }
 
