@@ -1,10 +1,10 @@
 ﻿@font-face {
     font-family: 'Circe Light';
-    src: url("..CRC35.otf");
+    src: url("./CRC35.otf");
 }
     @font-face {
     font-family: 'a_AvanteRough Light';
-    src: url("..a_AvanteRough Light.ttf");
+    src: url("./a_AvanteRough Light.ttf");
 }
 
 ul, ol {
@@ -24,10 +24,6 @@ ul, ol {
     width: 100%;
     height: 108px;
 }
-
-/*.m-footer div {
-    border: solid 1px red;
-} */
 
 .m-footer__wrapper {
    width: 1016px;
@@ -59,14 +55,32 @@ ul, ol {
     margin-bottom: 13px;
 }
 
-.m-footer__social-images {
+.m-footer__social-images_VK {
     display: inline-block;
+    background-image: url(./Images/VK.png);
+    width: 24px;
+    height: 24px;
 }
 
-.m-footer__social-images_VK {
-    background-image: url(/Images/VK.png);
-    width: 25px;
-    height: 25px;
+.m-footer__social-images_facebook {
+    display: inline-block;
+    background-image: url(./Images/facebook.png);
+    width: 24px;
+    height: 24px;
+}
+
+.m-footer__social-images_twitter {
+    display: inline-block;
+    background-image: url(./Images/twitter.png);
+    width: 24px;
+    height: 24px;
+}
+
+.m-footer__social-images_odnoklassniki {
+    display: inline-block;
+    background-image: url(./Images/odnoklassniki.png);
+    width: 24px;
+    height: 24px;
 }
 
 .m-footer__design-studio {
