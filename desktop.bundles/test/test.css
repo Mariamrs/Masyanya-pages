@@ -1,5 +1,6 @@
 ﻿@import url("../../desktop.blocks/m-menu/m-menu.css") screen;
 @import url("../../desktop.blocks/m-footer/m-footer.css") screen;
+@import url("../../desktop.blocks/m-content/m-content.css") screen;
 
 body {
     margin: 0 auto;
