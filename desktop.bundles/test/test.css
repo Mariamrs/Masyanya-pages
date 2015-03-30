@@ -1,9 +1,15 @@
 ﻿@import url("../../desktop.blocks/m-menu/m-menu.css") screen;
 @import url("../../desktop.blocks/m-footer/m-footer.css") screen;
 @import url("../../desktop.blocks/m-content/m-content.css") screen;
+@import url("../../desktop.blocks/m-background/background.css") screen; 
 
 body {
     margin: 0 auto;
     position: relative;
     min-height: 100%;
-}
+    background: url(../../desktop.blocks/m-background/m-background_images/background.png) 50% 0 no-repeat, linear-gradient(to bottom, #86E1FF, #D6FBFF) repeat-y;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+       }
+

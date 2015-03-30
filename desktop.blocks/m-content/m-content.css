@@ -1,3 +1,23 @@
-﻿.m-content {
-    height: 5000px;
+﻿ul, ol {
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.m-content {
+    height: 2000px;
+    width: 1018px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    }
+
+/*.m-background__sun {
+    background-image: url(../m-background/m-background_images/sun.png);
+    width: 1251px;
+    height: 960px;
+    z-index: 2;
 }
